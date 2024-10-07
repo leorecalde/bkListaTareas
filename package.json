@@ -1,0 +1,25 @@
+{
+  "name": "bklistatareas",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --env-file .env --watch index.js"
+  },
+  "keywords": [
+    "middlewares",
+    "base de datos",
+    "MongoDB",
+    "ExpressJS"
+  ],
+  "author": "Leonardo Recalde",
+  "license": "ISC",
+  "description": "backen para tp de lista de tareas",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "mongoose": "^8.7.0",
+    "morgan": "^1.10.0"
+  }
+}
